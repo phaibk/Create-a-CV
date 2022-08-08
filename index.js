@@ -90,6 +90,7 @@ function renderItem(info) {
   document.getElementById("english-speak").value = info.speak.toString();
   document.getElementById("english-read").value = info.read.toString();
   document.getElementById("english-write").value = info.write.toString();
+  
   document.getElementById("cvo-objective-objective").innerHTML = info.target;
   document.getElementById("cvo-education-school").innerHTML = info.school;
   document.getElementById("cvo-education-start").innerHTML = info.startstudy;
